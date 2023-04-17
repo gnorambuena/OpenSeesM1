@@ -9,13 +9,18 @@ This guide will help you build OpenSees and OpenSeesPy for the Apple M1 (aarch) 
 ## Steps
 
 1. Clone the GitHub repository containing the `build_m1.sh` and `install_openseespy_m1.sh` scripts.
+`git clone https://github.com/gnorambuena/OpenSeesM1.git`
 
-2. Open the terminal and navigate to the directory containing the scripts.
+2. Navigate to the directory containing the scripts.
+
+`cd OpenSeesM1`
 
 3. Give the scripts executable permissions:
+
    `chmod +x build_m1.sh install_openseespy_m1.sh`
 
 4. Run the `build_m1.sh` script to build OpenSees, OpenSeesMP, and OpenSeesSP:
+
     `./build_m1.sh`
 
 This script will install the required dependencies, build the MUMPS library, and build OpenSees, OpenSeesMP, and OpenSeesSP.
