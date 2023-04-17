@@ -24,7 +24,7 @@ This guide will help you build OpenSees and OpenSeesPy for the Apple M1 (aarch) 
 
     `./build_m1.sh`
 
-This script will install the required dependencies, build the MUMPS library, and build OpenSees, OpenSeesMP, and OpenSeesSP.
+This script will install the required dependencies, build the MUMPS library, and build OpenSees, OpenSeesPy, OpenSeesMP, and OpenSeesSP.
 
 5. After the `build_m1.sh` script has successfully completed, run the `install_openseespy_m1.sh` script to copy OpenSeesPy. This step will copy the files `opensees.so` and `openseespy.dylib` to the installed packages directory of the current Python interpreter:
 
