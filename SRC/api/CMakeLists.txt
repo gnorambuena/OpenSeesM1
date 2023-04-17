@@ -5,6 +5,7 @@
 #
 #==============================================================================
 add_library(OPS_Api OBJECT)
+set_target_properties(OPS_Api PROPERTIES LINKER_LANGUAGE CXX)
 
 target_sources(OPS_InterpTcl
   PRIVATE
