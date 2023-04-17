@@ -20,7 +20,7 @@ The documentation (in its present form) can be viewed in the browser using the f
 
 ## Build Instructions for Apple M1 (aarch)
 
-This fork includes specific build instructions for the Apple M1 architecture. Please refer to the appropriate section in the build documentation: 
+This fork includes specific build instructions for the Apple M1 architecture. Please refer to the [README_m1.md](README_m1.md) file for detailed steps on building OpenSees and OpenSeesPy for Apple M1 (aarch) architecture.
 
 ## Modeling Questions
 
