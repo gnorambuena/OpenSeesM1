@@ -20,7 +20,7 @@ This guide will help you build OpenSees and OpenSeesPy for the Apple M1 (aarch) 
 
    `chmod +x build_m1.sh install_openseespy_m1.sh`
 
-4. Run the `build_m1.sh` script to build OpenSees, OpenSeesMP, and OpenSeesSP:
+4. Run the `build_m1.sh` script to build OpenSees, OpenSeesPy, OpenSeesMP, and OpenSeesSP:
 
     `./build_m1.sh`
 
