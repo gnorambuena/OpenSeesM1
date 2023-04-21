@@ -92,3 +92,4 @@ build
 bin
 __pycache__
 *.dat
+build_m1
