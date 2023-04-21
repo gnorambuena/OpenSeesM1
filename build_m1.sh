@@ -6,7 +6,7 @@ initial_directory=$(pwd)
 # Update brew and install required packages
 echo "Updating brew and installing required packages..."
 brew update
-brew install cmake gcc open-mpi scalapack python@3.9 conan@1.54.0
+brew install cmake gcc open-mpi scalapack python@3.9 conan@1.54.0 hdf5
 echo "Finished updating brew and installing packages."
 
 # Create build_m1 directory and change to it
@@ -63,5 +63,3 @@ echo "Building OpenSeesSP target..."
 cmake --build . --config Release --target OpenSeesSP
 echo "Finished building OpenSeesSP target."
 
-# Move the OpenSeesPy shared library to the proper location
-mv ./lib/OpenSeesPy.dylib ./lib/opensees.so
